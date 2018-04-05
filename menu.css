@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+div, body{
+	margin: 0;
+	padding: 0;
+}
+#music_menu{
+	border: 1px solid #ccc;
+	width: 220px;
+	height: 170px;
+}
+#music_head {
+ padding: 5px;
+}
+#music_head a{
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+}
+#music_contnt table{
+	border-collapse: collapse;
+}
+#music_contnt .active{
+	font-weight: bold;
+}
+#music_contnt .list{
+	padding: 5px 40px 5px 5px;
+	background: url("logo.png") no-repeat 15px;
+}
+#music_contnt  a{
+	color: blue;
+
+}
+#music_contnt span{
+	color: orange;
+	padding-right: 20px;
+}
+#music_foot{
+	margin-top: 10px;
+}
+#music_foot a{
+	color: blue;
+	margin-left: 5px;
+}
+#music_foot button{
+	margin-left: 80px;
+}
+
